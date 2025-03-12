@@ -13,13 +13,13 @@ import lucky_draw from "../../assets/images/lucky_draw.png";
  
 
 const InputWrapper = styled("div")(({ theme }) => ({
-  width: "100%",
-  padding: "2rem",
+  width: "90%",
+  padding: "2rem 1rem",
   [theme.breakpoints.up("sm")]: {
     width: "70%",
   },
 
-  input: {
+  'input': {
     width: "100%",
     padding: "1rem",
     borderRadius: "2rem",
@@ -40,7 +40,7 @@ const FlexWrapper = styled("div")(({ theme }) => ({
     // backgroundImage: `url('${cardbg}')`,
     // backgroundPosition: "center",
     backgroundColor: '#01020e',
-    minWidth: "230px",
+    maxWidth: "280px",
     minHeight: "400px",
     border: "1px solid #4d4d4d",
     borderRadius: "10px",
@@ -55,7 +55,7 @@ const FlexWrapper = styled("div")(({ theme }) => ({
   },
   "div > img": {
     borderRadius: "15px",
-    width: "200px",
+    maxWidth: "180px",
   },
 }));
 

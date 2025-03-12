@@ -16,11 +16,9 @@ function App() {
         margin: "0 auto",
       }}
     >
-      <Container
-        sx={{
+      <Container sx={{
           position: "relative",
-        }}
-      >
+        }}>
         <main>
           <Header />
           <Body />

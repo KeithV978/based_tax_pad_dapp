@@ -7,14 +7,14 @@ export const Wrapper = styled("header")(({ theme }) => ({
   width: "100%",
   alignItems: "center",
   marginBottom: "2rem",
-  padding: "1rem 0",
+  padding: "1rem .5rem",
   position: "sticky",
   top: "0px",
   backgroundColor: "#01020e",
   zIndex: 1000,
+  borderRadius: '25px',
   [theme.breakpoints.up("sm")]: {
     padding: "1rem",
-    borderRadius: '25px'
   },
 }));
 export const Img = styled("img")(({ theme }) => ({
