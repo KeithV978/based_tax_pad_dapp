@@ -67,7 +67,7 @@ export const Header = () => {
                 marginLeft: '1rem'
               }}
             >
-              Connect
+              Create Token
             </Button>
           </Box>
           <Box sx={{ display: { sm: "none", xs: "block" } }}>
