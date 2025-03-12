@@ -12,7 +12,7 @@ import BlurOnRounded from "@mui/icons-material/BlurOnRounded";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 // import { DASH } from "../../utils/links";
-import logo from "../../assets/images/logo/logo.png";
+import logo from "../../assets/images/logo.png";
 
 export const MobileNav = ({ menuOpen, toggleDrawer }) => {
   return (
