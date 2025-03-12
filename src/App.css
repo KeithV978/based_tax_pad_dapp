@@ -1,0 +1,72 @@
+* {
+  transition: all ease-in 0.3s;
+  background-repeat: no-repeat;
+}
+body {
+  /* background-color: #01020e; */
+  background-image: url('./assets/images/bg1.jpg');
+  background-size: cover;
+  color: #ccc;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: inline-block;
+  width: 100%;
+}
+@keyframes clockrotate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+@keyframes anticlockrotate {
+  from {
+    rotate: 360deg;
+  }
+  to {
+    rotate: 0deg;
+  }
+}
+@keyframes scaler {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 0.5;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.about_vid {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.roadmap::-webkit-scrollbar {
+  width: 2px;
+  height: 6px;
+}
+.roadmap::-webkit-scrollbar-track {
+  background: #222222;
+  border-radius: 25px;
+}
+.roadmap::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    89.9deg,
+    #2b2e2f -1.07%,
+    #2b2e2f 39.04%,
+    #8516ca 70.22%,
+    #16ca9d 101.56%
+  );
+  border-radius: 25px;
+}
