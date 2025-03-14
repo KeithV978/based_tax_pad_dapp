@@ -58,7 +58,7 @@ export const Header = () => {
             </div>
             <Button
               variant="contained"
-              href="https://app.leveredgeai.io"
+              href="#"
               sx={{
                 backgroundColor: "primary.main",
                 color: "#fff",
